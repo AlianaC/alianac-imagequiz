@@ -192,5 +192,7 @@ let quiz2 = {id: 2, name: "Quiz 2", picture: "/images/cherryblossom.png", questi
 let quiz3 = {id: 3, name: "Quiz 3", picture: "/images/lily.jpg", questions: q3};
 
 let quizzes = [quiz1, quiz2, quiz3];
+let scores = [];
 
 module.exports.quizzes = quizzes;
+module.exports.scores = scores;
